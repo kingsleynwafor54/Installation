@@ -1,0 +1,61 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USCHIP>  mkdir fastapi
+
+C:\Users\USCHIP>cd fastapi
+
+C:\Users\USCHIP\fastapi>cd ..
+
+C:\Users\USCHIP>python -m pip install fastapi
+Collecting fastapi
+  Downloading fastapi-0.70.0-py3-none-any.whl (51 kB)
+     |████████████████████████████████| 51 kB 225 kB/s
+Collecting starlette==0.16.0
+  Downloading starlette-0.16.0-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 41 kB/s
+Collecting pydantic!=1.7,!=1.7.1,!=1.7.2,!=1.7.3,!=1.8,!=1.8.1,<2.0.0,>=1.6.2
+  Downloading pydantic-1.8.2-cp39-cp39-win_amd64.whl (1.9 MB)
+     |████████████████████████████████| 1.9 MB 113 kB/s
+Collecting anyio<4,>=3.0.0
+  Downloading anyio-3.3.2-py3-none-any.whl (78 kB)
+     |████████████████████████████████| 78 kB 129 kB/s
+Collecting sniffio>=1.1
+  Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting idna>=2.8
+  Downloading idna-3.2-py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 126 kB/s
+Collecting typing-extensions>=3.7.4.3
+  Downloading typing_extensions-3.10.0.2-py3-none-any.whl (26 kB)
+Installing collected packages: sniffio, idna, typing-extensions, anyio, starlette, pydantic, fastapi
+Successfully installed anyio-3.3.2 fastapi-0.70.0 idna-3.2 pydantic-1.8.2 sniffio-1.2.0 starlette-0.16.0 typing-extensions-3.10.0.2
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'C:\Users\USCHIP\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\USCHIP>C:\Users\USCHIP\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\uschip\appdata\local\programs\python\python39\lib\site-packages (21.1.3)
+Collecting pip
+  Downloading pip-21.2.4-py3-none-any.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 2.2 MB/s
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.1.3
+    Uninstalling pip-21.1.3:
+      Successfully uninstalled pip-21.1.3
+Successfully installed pip-21.2.4
+
+C:\Users\USCHIP>pip install uvicorn
+Collecting uvicorn
+  Downloading uvicorn-0.15.0-py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 384 kB/s
+Collecting h11>=0.8
+  Downloading h11-0.12.0-py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 309 kB/s
+Requirement already satisfied: asgiref>=3.4.0 in c:\users\uschip\appdata\local\programs\python\python39\lib\site-packages (from uvicorn) (3.4.1)
+Collecting click>=7.0
+  Downloading click-8.0.2-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 613 kB/s
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Installing collected packages: colorama, h11, click, uvicorn
+Successfully installed click-8.0.2 colorama-0.4.4 h11-0.12.0 uvicorn-0.15.0

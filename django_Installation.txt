@@ -1,0 +1,526 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USCHIP>python --version
+Python 3.9.6
+
+C:\Users\USCHIP>easy_install --version
+'easy_install' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USCHIP>easy_install django
+'easy_install' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USCHIP>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP
+
+09/27/2021  08:01 PM    <DIR>          .
+09/27/2021  08:01 PM    <DIR>          ..
+08/26/2021  11:52 AM    <DIR>          .android
+02/02/2021  06:48 AM    <DIR>          .argouml
+09/20/2021  03:00 PM            11,841 .bash_history
+08/26/2021  11:52 AM    <DIR>          .BigNox
+09/08/2021  12:44 AM    <DIR>          .cache
+05/24/2021  09:03 AM    <DIR>          .config
+09/23/2021  07:33 AM               222 .gitconfig
+02/23/2021  05:37 AM    <DIR>          .gradle
+06/03/2021  11:09 AM    <DIR>          .idea
+03/31/2021  03:58 PM    <DIR>          .idlerc
+08/02/2021  03:40 PM    <DIR>          .ipynb_checkpoints
+07/07/2021  11:25 AM    <DIR>          .ipython
+02/03/2021  03:00 AM    <DIR>          .jdks
+07/07/2021  02:54 PM    <DIR>          .jupyter
+09/24/2021  08:09 AM                20 .lesshst
+03/02/2021  10:40 AM    <DIR>          .m2
+07/14/2021  11:53 AM    <DIR>          .matplotlib
+05/31/2021  01:14 AM                72 .node_repl_history
+04/30/2021  04:20 PM             2,547 .viminfo
+04/22/2021  09:57 AM    <DIR>          .vscode
+08/03/2021  10:10 AM    <DIR>          3D Objects
+07/07/2021  11:14 AM    <DIR>          anaconda3
+02/18/2021  05:05 PM         1,265,485 Architectural design.pdf
+08/17/2021  11:30 PM    <DIR>          BankApp
+05/05/2021  11:35 PM    <DIR>          BuyBeansBusiness
+08/14/2021  09:14 PM    <DIR>          calculator
+08/15/2021  03:24 AM    <DIR>          calculator1
+08/25/2021  11:25 AM    <DIR>          calculator2
+08/03/2021  05:16 AM    <DIR>          CerealProject
+08/02/2021  03:25 PM               576 CerealProject.ipynb
+04/01/2021  04:27 AM    <DIR>          ChapterSevenJavaHowToProgram
+06/03/2021  11:09 AM               433 classExercises.iml
+07/10/2021  09:51 PM    <DIR>          com.SpringBootPractice
+05/21/2021  06:47 AM    <DIR>          com.Tictactoe.ChapterSeven
+06/23/2021  12:08 PM    <DIR>          com.whot.game
+08/03/2021  10:10 AM    <DIR>          Contacts
+08/26/2021  11:52 AM               301 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+07/14/2021  04:55 PM    <DIR>          DataScience
+09/28/2021  10:29 PM    <DIR>          Desktop
+09/14/2021  06:51 PM    <DIR>          Dev
+07/01/2021  08:25 AM    <DIR>          diary
+09/08/2021  02:18 AM    <DIR>          Documents
+09/29/2021  10:40 AM    <DIR>          Downloads
+09/23/2021  07:58 AM    <DIR>          engineering-education
+08/03/2021  10:10 AM    <DIR>          Favorites
+08/09/2021  01:04 PM    <DIR>          go
+08/09/2021  01:10 PM    <DIR>          GolandProjects
+09/25/2021  10:18 AM    <DIR>          IdeaProjects
+08/03/2021  04:24 PM    <DIR>          infoapp
+04/26/2021  03:27 PM                66 inittk.ini
+04/26/2021  09:38 PM                41 inst.ini
+04/21/2021  10:37 AM    <DIR>          Javac
+03/22/2021  06:52 AM    <DIR>          King-Chudi
+08/03/2021  10:10 AM    <DIR>          Links
+03/06/2021  11:16 AM        72,438,136 MovaviVideoEditorPlusSetupO.exe
+08/03/2021  10:10 AM    <DIR>          Music
+04/26/2021  03:26 PM    <DIR>          Nox_share
+04/26/2021  03:26 PM                45 nuuid.ini
+08/09/2021  11:54 AM    <DIR>          OneDrive
+06/03/2021  11:09 AM    <DIR>          out
+09/23/2021  04:56 PM    <DIR>          Pictures
+09/10/2021  02:25 AM    <DIR>          Postman
+07/13/2021  06:18 AM    <DIR>          practice
+09/24/2021  06:46 AM    <DIR>          PycharmProjects
+06/03/2021  11:09 AM                16 README.md
+07/10/2021  09:59 PM    <DIR>          sample
+08/03/2021  10:10 AM    <DIR>          Saved Games
+08/03/2021  10:13 AM    <DIR>          Searches
+09/23/2021  08:40 AM    <DIR>          Section_Engineering
+07/10/2021  10:05 PM    <DIR>          springdemo
+06/03/2021  11:09 AM    <DIR>          src
+03/05/2021  04:46 PM             5,228 TeamGrace.zargo
+03/05/2021  04:46 PM                 0 TeamGrace.zargo~
+08/06/2021  12:09 AM    <DIR>          test
+09/08/2021  12:22 PM    <DIR>          testing
+08/15/2021  05:12 AM    <DIR>          Tracing
+07/07/2021  11:28 AM    <DIR>          Untitled Folder 1
+04/26/2021  03:26 PM                53 useruid.ini
+09/23/2021  08:44 AM    <DIR>          Videos
+02/19/2021  06:49 PM        41,436,128 vlc-3.0.12-win32.exe
+08/26/2021  11:52 AM    <DIR>          vmlogs
+02/28/2021  09:47 PM            87,150 volkswagen-vento.jpg
+              19 File(s)    115,248,360 bytes
+              65 Dir(s)  66,767,654,912 bytes free
+
+C:\Users\USCHIP>mkddir DjangoProjects
+'mkddir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USCHIP>mkdir DjangoProjects
+
+C:\Users\USCHIP>cd DjangoProjects
+
+C:\Users\USCHIP\DjangoProjects>mkdir tryDjango
+
+C:\Users\USCHIP\DjangoProjects>python -m venv environment
+
+C:\Users\USCHIP\DjangoProjects>cd environment
+
+C:\Users\USCHIP\DjangoProjects\environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\environment
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          Include
+09/29/2021  01:08 PM    <DIR>          Lib
+09/29/2021  01:08 PM               118 pyvenv.cfg
+09/29/2021  01:08 PM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  66,509,733,888 bytes free
+
+C:\Users\USCHIP\DjangoProjects\environment>cd Scripts
+
+C:\Users\USCHIP\DjangoProjects\environment\Scripts>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\environment\Scripts
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM             1,994 activate
+09/29/2021  01:08 PM               986 activate.bat
+09/29/2021  01:08 PM            19,412 Activate.ps1
+09/29/2021  01:08 PM               368 deactivate.bat
+09/29/2021  01:08 PM           106,372 pip.exe
+09/29/2021  01:08 PM           106,372 pip3.9.exe
+09/29/2021  01:08 PM           106,372 pip3.exe
+09/29/2021  01:08 PM           543,464 python.exe
+09/29/2021  01:08 PM           542,440 pythonw.exe
+               9 File(s)      1,427,780 bytes
+               2 Dir(s)  66,509,668,352 bytes free
+
+C:\Users\USCHIP\DjangoProjects\environment\Scripts>activate
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment\Scripts>  cd../..
+
+(environment) C:\Users\USCHIP\DjangoProjects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          environment
+09/29/2021  01:04 PM    <DIR>          tryDjango
+               0 File(s)              0 bytes
+               4 Dir(s)  66,508,247,040 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects>cd environment
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>python -m pip install Django
+Collecting Django
+  Using cached Django-3.2.7-py3-none-any.whl (7.9 MB)
+Collecting asgiref<4,>=3.3.2
+  Using cached asgiref-3.4.1-py3-none-any.whl (25 kB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting pytz
+  Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Installing collected packages: sqlparse, pytz, asgiref, Django
+Successfully installed Django-3.2.7 asgiref-3.4.1 pytz-2021.1 sqlparse-0.4.2
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'C:\Users\USCHIP\DjangoProjects\environment\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>cd ..
+
+(environment) C:\Users\USCHIP\DjangoProjects>cd tryDjango
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:04 PM    <DIR>          .
+09/29/2021  01:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,462,560,256 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>.. cd
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>cd environment
+The system cannot find the path specified.
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:04 PM    <DIR>          .
+09/29/2021  01:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,462,654,464 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>cd ..
+
+(environment) C:\Users\USCHIP\DjangoProjects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          environment
+09/29/2021  01:04 PM    <DIR>          tryDjango
+               0 File(s)              0 bytes
+               4 Dir(s)  66,462,654,464 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects>cd environment
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\environment
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          Include
+09/29/2021  01:08 PM    <DIR>          Lib
+09/29/2021  01:08 PM               118 pyvenv.cfg
+09/29/2021  01:23 PM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  66,462,650,368 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\environment
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          Include
+09/29/2021  01:08 PM    <DIR>          Lib
+09/29/2021  01:08 PM               118 pyvenv.cfg
+09/29/2021  01:23 PM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  66,462,715,904 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>cd..
+
+(environment) C:\Users\USCHIP\DjangoProjects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          environment
+09/29/2021  01:04 PM    <DIR>          tryDjango
+               0 File(s)              0 bytes
+               4 Dir(s)  66,462,715,904 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects>cd environment
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\environment
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          Include
+09/29/2021  01:08 PM    <DIR>          Lib
+09/29/2021  01:08 PM               118 pyvenv.cfg
+09/29/2021  01:23 PM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  66,462,625,792 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\environment>cd../..
+
+(environment) C:\Users\USCHIP>cd DjangoProjects
+
+(environment) C:\Users\USCHIP\DjangoProjects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects
+
+09/29/2021  01:08 PM    <DIR>          .
+09/29/2021  01:08 PM    <DIR>          ..
+09/29/2021  01:08 PM    <DIR>          environment
+09/29/2021  01:04 PM    <DIR>          tryDjango
+               0 File(s)              0 bytes
+               4 Dir(s)  66,462,699,520 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects>cd tryDjango
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:04 PM    <DIR>          .
+09/29/2021  01:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,462,699,520 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>python -m install Django
+C:\Users\USCHIP\DjangoProjects\environment\Scripts\python.exe: No module named install
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango> py -m pip install Django
+Requirement already satisfied: Django in c:\users\uschip\djangoprojects\environment\lib\site-packages (3.2.7)
+Requirement already satisfied: pytz in c:\users\uschip\djangoprojects\environment\lib\site-packages (from Django) (2021.1)
+Requirement already satisfied: asgiref<4,>=3.3.2 in c:\users\uschip\djangoprojects\environment\lib\site-packages (from Django) (3.4.1)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\uschip\djangoprojects\environment\lib\site-packages (from Django) (0.4.2)
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'C:\Users\USCHIP\DjangoProjects\environment\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:04 PM    <DIR>          .
+09/29/2021  01:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,462,371,840 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>pip install django
+Requirement already satisfied: django in c:\users\uschip\djangoprojects\environment\lib\site-packages (3.2.7)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\uschip\djangoprojects\environment\lib\site-packages (from django) (0.4.2)
+Requirement already satisfied: pytz in c:\users\uschip\djangoprojects\environment\lib\site-packages (from django) (2021.1)
+Requirement already satisfied: asgiref<4,>=3.3.2 in c:\users\uschip\djangoprojects\environment\lib\site-packages (from django) (3.4.1)
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'c:\users\uschip\djangoprojects\environment\scripts\python.exe -m pip install --upgrade pip' command.
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:04 PM    <DIR>          .
+09/29/2021  01:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,460,073,984 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>python -m django --version
+3.2.7
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>django-admin startproject webapp
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:38 PM    <DIR>          .
+09/29/2021  01:38 PM    <DIR>          ..
+09/29/2021  01:38 PM    <DIR>          webapp
+               0 File(s)              0 bytes
+               3 Dir(s)  66,459,824,128 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>cd webapp
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp
+
+09/29/2021  01:38 PM    <DIR>          .
+09/29/2021  01:38 PM    <DIR>          ..
+09/29/2021  01:38 PM               684 manage.py
+09/29/2021  01:38 PM    <DIR>          webapp
+               1 File(s)            684 bytes
+               3 Dir(s)  66,459,820,032 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>cd webapp
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\webapp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\webapp
+
+09/29/2021  01:38 PM    <DIR>          .
+09/29/2021  01:38 PM    <DIR>          ..
+09/29/2021  01:38 PM               405 asgi.py
+09/29/2021  01:38 PM             3,364 settings.py
+09/29/2021  01:38 PM               769 urls.py
+09/29/2021  01:38 PM               405 wsgi.py
+09/29/2021  01:38 PM                 0 __init__.py
+               5 File(s)          4,943 bytes
+               2 Dir(s)  66,461,126,656 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\webapp> cd ..
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>cd ..
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango
+
+09/29/2021  01:38 PM    <DIR>          .
+09/29/2021  01:38 PM    <DIR>          ..
+09/29/2021  01:38 PM    <DIR>          webapp
+               0 File(s)              0 bytes
+               3 Dir(s)  66,461,134,848 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango>cd webapp
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp
+
+09/29/2021  01:38 PM    <DIR>          .
+09/29/2021  01:38 PM    <DIR>          ..
+09/29/2021  01:38 PM               684 manage.py
+09/29/2021  01:38 PM    <DIR>          webapp
+               1 File(s)            684 bytes
+               3 Dir(s)  66,461,122,560 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>python manage.py startapp home
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp
+
+09/29/2021  01:47 PM    <DIR>          .
+09/29/2021  01:47 PM    <DIR>          ..
+09/29/2021  01:47 PM    <DIR>          home
+09/29/2021  01:38 PM               684 manage.py
+09/29/2021  01:47 PM    <DIR>          webapp
+               1 File(s)            684 bytes
+               4 Dir(s)  66,461,052,928 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>cd home
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\home>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\home
+
+09/29/2021  01:47 PM    <DIR>          .
+09/29/2021  01:47 PM    <DIR>          ..
+09/29/2021  01:47 PM                66 admin.py
+09/29/2021  01:47 PM               146 apps.py
+09/29/2021  01:47 PM    <DIR>          migrations
+09/29/2021  01:47 PM                60 models.py
+09/29/2021  01:47 PM                63 tests.py
+09/29/2021  01:47 PM                66 views.py
+09/29/2021  01:47 PM                 0 __init__.py
+               6 File(s)            401 bytes
+               3 Dir(s)  66,461,052,928 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp\home>cd ..
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\DjangoProjects\tryDjango\webapp
+
+09/29/2021  01:47 PM    <DIR>          .
+09/29/2021  01:47 PM    <DIR>          ..
+09/29/2021  01:47 PM    <DIR>          home
+09/29/2021  01:38 PM               684 manage.py
+09/29/2021  01:47 PM    <DIR>          webapp
+               1 File(s)            684 bytes
+               4 Dir(s)  66,460,901,376 bytes free
+
+(environment) C:\Users\USCHIP\DjangoProjects\tryDjango\webapp>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+September 29, 2021 - 13:48:44
+Django version 3.2.7, using settings 'webapp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Sep/2021 13:48:56] "GET / HTTP/1.1" 200 10697
+[29/Sep/2021 13:48:59] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Sep/2021 13:48:59] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[29/Sep/2021 13:48:59] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[29/Sep/2021 13:48:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[29/Sep/2021 13:48:59] "GET /favicon.ico HTTP/1.1" 404 2110

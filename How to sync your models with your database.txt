@@ -1,0 +1,33 @@
+opyright (C) Microsoft Corporation. All rights reserved.
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+PS C:\Users\USCHIP\Desktop\website> python manage.py makemigrations musi
+c
+Migrations for 'music':
+  music\migrations\0001_initial.py
+    - Create model Album
+    - Create model song
+PS C:\Users\USCHIP\Desktop\website> python manage.py sqlmigrate music 00
+01
+BEGIN;
+--
+-- Create model Album
+--
+CREATE TABLE "music_album" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "artist" varchar(250) NOT NULL, "album" varchar(500) NOT NULL, "genre" varc
+har(100) NOT NULL, "album_logo" varchar(1000) NOT NULL);
+--
+-- Create model song
+--
+CREATE TABLE "music_song" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "file_type" varchar(10) NOT NULL, "song_title" varchar(250) NOT NULL, "album
+_id" bigint NOT NULL REFERENCES "music_album" ("id") DEFERRABLE INITIALLY DEFERRED);
+CREATE INDEX "music_song_album_id_62a413c8" ON "music_song" ("album_id");
+COMMIT;
+PS C:\Users\USCHIP\Desktop\website> python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, music, sessions
+Running migrations:
+  Applying music.0001_initial... OK
+PS C:\Users\USCHIP\Desktop\website>
+
+
+
+

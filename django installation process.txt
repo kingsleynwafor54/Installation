@@ -1,0 +1,306 @@
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USCHIP>cd desktop
+
+C:\Users\USCHIP\Desktop>python -m venv Environment
+
+C:\Users\USCHIP\Desktop>cd Environment
+
+C:\Users\USCHIP\Desktop\Environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop\Environment
+
+09/20/2021  11:37 AM    <DIR>          .
+09/20/2021  11:37 AM    <DIR>          ..
+09/20/2021  11:37 AM    <DIR>          Include
+09/20/2021  11:37 AM    <DIR>          Lib
+09/20/2021  11:37 AM               118 pyvenv.cfg
+09/20/2021  11:38 AM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  96,776,491,008 bytes free
+
+C:\Users\USCHIP\Desktop\Environment>cd Scripts
+
+C:\Users\USCHIP\Desktop\Environment\Scripts>activate
+
+(Environment) C:\Users\USCHIP\Desktop\Environment\Scripts>.. cd
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+(Environment) C:\Users\USCHIP\Desktop\Environment\Scripts>cd../..
+
+(Environment) C:\Users\USCHIP\Desktop>pip install django
+Collecting django
+  Downloading Django-3.2.7-py3-none-any.whl (7.9 MB)
+     |████████████████████████████████| 7.9 MB 66 kB/s
+Collecting pytz
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB 51 kB/s
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB 93 kB/s
+Collecting asgiref<4,>=3.3.2
+  Downloading asgiref-3.4.1-py3-none-any.whl (25 kB)
+Installing collected packages: sqlparse, pytz, asgiref, django
+Successfully installed asgiref-3.4.1 django-3.2.7 pytz-2021.1 sqlparse-0.4.2
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'c:\users\uschip\desk 
+(Environment) C:\Users\USCHIP\Desktop>cd DjangoProject
+
+(Environment) C:\Users\USCHIP\Desktop\DjangoProject>django-admin startproject django_block
+
+Then you go django_block and in your editor (pycharm and then you add virtual environment)
+
+When you click on django-admin
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USCHIP>cd desktop
+
+C:\Users\USCHIP\Desktop>mkdir new_django_project
+
+C:\Users\USCHIP\Desktop>cd new_django_project
+
+C:\Users\USCHIP\Desktop\new_django_project>python -m venv Environment
+
+C:\Users\USCHIP\Desktop\new_django_project>cd Environment
+
+C:\Users\USCHIP\Desktop\new_django_project\Environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop\new_django_project\Environment
+
+09/27/2021  11:04 AM    <DIR>          .
+09/27/2021  11:04 AM    <DIR>          ..
+09/27/2021  11:04 AM    <DIR>          Include
+09/27/2021  11:04 AM    <DIR>          Lib
+09/27/2021  11:04 AM               118 pyvenv.cfg
+09/27/2021  11:05 AM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  62,914,510,848 bytes free
+
+C:\Users\USCHIP\Desktop\new_django_project\Environment>cd Scripts
+
+C:\Users\USCHIP\Desktop\new_django_project\Environment\Scripts>activate
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\Environment\Scripts>cd ../..
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>pip install django
+Collecting django
+  Using cached Django-3.2.7-py3-none-any.whl (7.9 MB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting asgiref<4,>=3.3.2
+  Using cached asgiref-3.4.1-py3-none-any.whl (25 kB)
+Collecting pytz
+  Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Installing collected packages: sqlparse, pytz, asgiref, django
+Successfully installed asgiref-3.4.1 django-3.2.7 pytz-2021.1 sqlparse-0.4.2
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'c:\users\uschip\desktop\new_django_project\environment\scripts\python.exe -m pip install --upgrade pip' command.
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>django-admin startproject django_stuffs
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>python manage.py runserver
+C:\Users\USCHIP\AppData\Local\Programs\Python\Python39\python.exe: can't open file 'C:\Users\USCHIP\Desktop\new_django_project\manage.py': [Errno 2] No such file or directory
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>cd Environment
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\Environment>python manage.py runserver
+C:\Users\USCHIP\AppData\Local\Programs\Python\Python39\python.exe: can't open file 'C:\Users\USCHIP\Desktop\new_django_project\Environment\manage.py': [Errno 2] No such file or directory
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\Environment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop\new_django_project\Environment
+
+09/27/2021  11:04 AM    <DIR>          .
+09/27/2021  11:04 AM    <DIR>          ..
+09/27/2021  11:04 AM    <DIR>          Include
+09/27/2021  11:04 AM    <DIR>          Lib
+09/27/2021  11:04 AM               118 pyvenv.cfg
+09/27/2021  11:13 AM    <DIR>          Scripts
+               1 File(s)            118 bytes
+               5 Dir(s)  62,870,347,776 bytes free
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\Environment>cd../..
+
+(Environment) C:\Users\USCHIP\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop
+
+09/27/2021  10:59 AM    <DIR>          .
+09/27/2021  10:59 AM    <DIR>          ..
+05/30/2021  11:59 PM    <DIR>          30DaysOfJS
+09/02/2021  02:42 PM    <DIR>          30daysOfReact
+05/09/2021  05:58 PM               358 AscendingOrder.py
+08/22/2021  03:13 PM             1,211 ASIO4ALL v2 Instruction Manual.lnk
+07/10/2021  04:51 AM    <DIR>          BABAFILE
+05/04/2021  12:51 PM     2,906,392,983 backup20210504125008.npbk
+05/11/2021  03:41 PM     3,848,997,271 backup20210511154042.npbk
+08/20/2021  05:26 AM    <DIR>          BankApp
+08/20/2021  10:21 AM    <DIR>          BankingApp
+08/20/2021  12:47 PM    <DIR>          BankingAppSystem
+08/20/2021  11:42 AM    <DIR>          BankingSystem
+09/06/2021  09:06 PM    <DIR>          c6_todo
+08/24/2021  07:03 PM    <DIR>          Calculator
+08/14/2021  11:50 PM    <DIR>          calculator1
+08/25/2021  11:27 AM    <DIR>          calculatorapp
+02/01/2021  11:08 PM         1,321,688 ChromeSetup.exe
+04/30/2021  08:11 AM               894 ClassPractices.py
+04/09/2021  05:32 AM    <DIR>          Databse Setup
+08/04/2021  01:26 PM    <DIR>          DataScienceProject
+04/02/2021  08:19 AM        25,315,925 Deitel P., Deitel H. - Intro to Python for Computer Science and Data Science - 2020.pdf
+09/20/2021  11:45 AM    <DIR>          DjangoProject
+09/20/2021  03:20 PM    <DIR>          DjangoStuff
+07/06/2021  09:51 AM    <DIR>          Dom
+09/20/2021  11:37 AM    <DIR>          Environment
+08/03/2021  04:11 PM             2,412 facebook.lnk
+06/30/2021  09:40 AM    <DIR>          Films
+05/04/2021  12:11 AM               337 FirstPythonCode.py
+03/30/2021  09:44 PM    <DIR>          git-katas
+09/23/2021  07:32 AM             2,376 GitHub Desktop.lnk
+08/09/2021  04:00 PM    <DIR>          GoProject
+08/23/2021  11:49 AM             7,460 Gym (1).csv
+05/26/2021  05:06 PM    <DIR>          HeavensGate
+09/09/2021  08:59 PM    <DIR>          Hollywood
+02/19/2021  08:23 AM    <DIR>          java
+02/04/2021  03:42 AM        16,138,248 Java - How to Program 10th Ed - Early Objects Version - Deitel.pdf
+06/18/2021  09:47 AM             8,555 Java Object Qst.docx
+08/12/2021  11:33 PM    <DIR>          JavaScript
+09/11/2021  05:37 AM    <DIR>          JavaThings
+04/30/2021  09:24 AM        49,916,779 Jireh by Elevation Worship.mp4
+04/10/2021  07:04 AM    <DIR>          kingchudi
+08/23/2021  06:26 AM    <DIR>          KingsBank
+05/10/2021  11:36 AM    <DIR>          King_Chudi
+08/05/2021  12:42 PM    <DIR>          MavisBeaconTeachesTyping
+03/08/2021  06:02 AM       101,172,665 MavisBeaconTeachesTyping.zip
+04/22/2021  04:52 PM    <DIR>          movie_classswork
+08/03/2021  03:40 PM             1,121 Multi-Drive.lnk
+06/15/2021  02:16 PM    <DIR>          Multicolumn
+08/19/2021  06:28 AM    <DIR>          MyBankingApp
+04/22/2021  03:57 AM    <DIR>          myHotTea
+09/27/2021  11:21 AM    <DIR>          new_django_project
+06/10/2021  09:28 AM     4,929,358,231 nox backup.npbk
+08/03/2021  03:40 PM             1,040 Nox.lnk
+08/03/2021  04:11 PM             1,416 Opera Browser.lnk
+09/24/2021  05:14 PM    <DIR>          PorfolioPage
+06/12/2021  11:31 AM    <DIR>          Portfolio
+09/25/2021  06:40 PM             2,190 Postman.lnk
+09/16/2021  02:36 AM    <DIR>          Py.Projects
+04/24/2021  11:24 PM    <DIR>          PythonProjects
+08/23/2021  12:11 PM           794,162 R-File.nb.html
+08/23/2021  12:11 PM               885 R-File.Rmd
+08/24/2021  10:14 PM    <DIR>          R-Project
+08/29/2021  01:50 AM       349,179,503 React Portfolio Website Tutorial _ Responsive React Project Full Course for Beginners.mp4
+09/01/2021  02:06 PM    <DIR>          React-P
+08/26/2021  11:42 AM    <DIR>          React-Practice
+09/27/2021  07:41 AM    <DIR>          ReactPractice
+07/07/2021  06:35 AM    <DIR>          reactToDo
+08/03/2021  09:57 AM            27,008 Removed Apps.html
+05/26/2021  02:03 PM             1,321 ReviewersTable.txt
+08/11/2021  05:49 AM    <DIR>          RFolder
+08/11/2021  06:08 AM               941 RStudio.lnk
+09/02/2021  06:07 AM             2,208 Slack.lnk
+08/09/2021  10:12 AM             1,035 Telegram.lnk
+09/27/2021  08:42 AM    <DIR>          test
+04/16/2021  01:56 PM               332 test_csv_DB.csv
+05/21/2021  04:24 PM       127,469,556 The Figma 2021 Crash Course by Example.mkv
+06/05/2021  04:53 PM    <DIR>          Tictactoe
+04/16/2021  05:37 PM               230 Untitled spreadsheet - Sheet1.csv
+08/12/2021  07:15 PM             1,407 Visual Studio Code.lnk
+05/31/2021  02:37 PM    <DIR>          webdev
+09/23/2021  04:45 AM    <DIR>          website
+08/23/2021  01:54 PM             2,206 WhatsApp.lnk
+02/01/2021  11:37 PM       131,303,608 WhatsAppSetup.exe
+08/15/2021  03:28 PM             1,541 WPS Office.lnk
+              35 File(s) 12,487,429,103 bytes
+              50 Dir(s)  62,870,347,776 bytes free
+
+(Environment) C:\Users\USCHIP\Desktop>cd new_django_project
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop\new_django_project
+
+09/27/2021  11:21 AM    <DIR>          .
+09/27/2021  11:21 AM    <DIR>          ..
+09/27/2021  11:21 AM    <DIR>          django_stuffs
+09/27/2021  11:04 AM    <DIR>          Environment
+               0 File(s)              0 bytes
+               4 Dir(s)  62,870,347,776 bytes free
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project>cd django_stuffs
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\django_stuffs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0C09-3E9D
+
+ Directory of C:\Users\USCHIP\Desktop\new_django_project\django_stuffs
+
+09/27/2021  11:21 AM    <DIR>          .
+09/27/2021  11:21 AM    <DIR>          ..
+09/27/2021  11:21 AM    <DIR>          django_stuffs
+09/27/2021  11:21 AM               691 manage.py
+               1 File(s)            691 bytes
+               3 Dir(s)  62,870,409,216 bytes free
+
+(Environment) C:\Users\USCHIP\Desktop\new_django_project\django_stuffs>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+September 27, 2021 - 11:26:20
+Django version 3.2.7, using settings 'django_stuffs.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[27/Sep/2021 11:27:06] "GET / HTTP/1.1" 200 10697
+[27/Sep/2021 11:27:09] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[27/Sep/2021 11:27:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[27/Sep/2021 11:27:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[27/Sep/2021 11:27:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[27/Sep/2021 11:27:09] "GET /favicon.ico HTTP/1.1" 404 2117
+
+
+
